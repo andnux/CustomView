@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="pointerWidth" format="dimension" />
+        <attr name="pointerColor" format="color" />
+        <attr name="centerWidth" format="dimension" />
+        <attr name="centerColor" format="color" />
+    </declare-styleable>
+</resources>

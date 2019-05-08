@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <top.andnux.customview.code.QrCodeView
+        android:id="@+id/codeView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:hornColor="@color/colorAccent"
+        app:hornLength="30dp"
+        app:hornWidth="8dp"
+        app:laserColor="@color/colorAccent"
+        app:lineColor="@color/colorAccent"
+        app:lineWidth="1dp"
+        app:scanningLineHeight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codeView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="扫一扫"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+</RelativeLayout>

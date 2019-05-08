@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QrCodeView">
+        <!--线的宽度-->
+        <attr name="lineWidth" format="dimension" />
+        <!--线的颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--四个角的颜色-->
+        <attr name="hornColor" format="color"/>
+        <!--四个角的宽度-->
+        <attr name="hornWidth" format="dimension"/>
+        <!--四个角的长度-->
+        <attr name="hornLength" format="dimension"/>
+        <!--扫描条的颜色-->
+        <attr name="laserColor" format="color"/>
+        <!--每次移动的距离-->
+        <attr name="lineMoveDistance" format="integer"/>
+        <!--多久移动一次-->
+        <attr name="animationDelay" format="integer"/>
+        <!--扫描体的高度-->
+        <attr name="scanningLineHeight" format="dimension"/>
+    </declare-styleable>
+</resources>
